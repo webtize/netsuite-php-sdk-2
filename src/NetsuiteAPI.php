@@ -537,6 +537,7 @@ class NetsuiteAPI
     {
         $curl = curl_init();
 
+
         curl_setopt_array($curl, array(
             CURLOPT_URL => env('NAPI_HOST') . '/api/createSession',
             CURLOPT_RETURNTRANSFER => true,
