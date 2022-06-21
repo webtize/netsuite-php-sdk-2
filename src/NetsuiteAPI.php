@@ -569,8 +569,6 @@ class NetsuiteAPI
         ));
     }
 
-
-
     public function applyGiftcard($data)
     {
         if (!is_array($data)) {
