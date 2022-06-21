@@ -560,13 +560,12 @@ class NetsuiteAPI
         }
     }
 
-
-
-    public function getJournal($internalId)
+     public function getJournal($internalId)
     {
         return $this->sendRequest('/api/getJournal', array(
             'internalId' => $internalId,
         ));
+
     }
 
     public function applyGiftcard($data)
