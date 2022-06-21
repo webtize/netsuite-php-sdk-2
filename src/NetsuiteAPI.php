@@ -561,6 +561,7 @@ class NetsuiteAPI
     }
 
 
+
     public function getJournal($internalId)
     {
         return $this->sendRequest('/api/getJournal', array(
